@@ -10,7 +10,7 @@
     磁盘30G，分配的时候，6G留给交换分区，其他全部划分到根目录下 
 
 # 1.操作系统以及依赖安装
-安装操作系统时需勾选的选项
+    安装操作系统时需勾选的选项
     Base System > Base
     Base System > Compatibility libraries
     Base System > Hardware monitoring utilities
