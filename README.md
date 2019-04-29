@@ -36,41 +36,41 @@
     mount /dev/cdrom/ /media/cdrom
 
 # 3.安装所需的包
-cd /mdeia/cdrom
-cd /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/Packages/
-rpm -Uvh binutils-2.*
-rpm -Uvh compat-libstdc++-33-3.2.3-69.el6.i686.rpm 
-rpm -Uvh compat-libstdc++-33-3.2.3-69.el6.x86_64.rpm 
-rpm -Uvh elfutils-libelf-0.152-1.el6.i686.rpm 
-rpm -Uvh elfutils-libelf-0.152-1.el6.x86_64.rpm 
-rpm -Uvh libaio-0.3.107-10.el6.i686.rpm 
-rpm -Uvh libaio-0.3.107-10.el6.x86_64.rpm 
-rpm -Uvh libaio-devel-0.3.107-10.el6.i686.rpm 
-rpm -Uvh libaio-devel-0.3.107-10.el6.x86_64.rpm 
-rpm -Uvh sysstat-9.0.4-22.el6.x86_64.rpm 
-rpm -Uvh glibc-2.12-1.132.el6.i686.rpm 
-rpm -Uvh glibc-2.12-1.132.el6.x86_64.rpm 
-rpm -Uvh glibc-common-2.12-1.132.el6.x86_64.rpm 
-rpm -Uvh glibc-devel-2.12-1.132.el6.x86_64.rpm
-rpm -Uvh glibc-devel-2.12-1.132.el6.i686.rpm 
- rpm -Uvh glibc-headers-2.12-1.132.el6.x86_64.rpm 
-rpm -Uvh ksh-20120801-10.el6.x86_64.rpm 
-rpm -Uvh make-3.81-20.el6.x86_64.rpm 
-rpm -Uvh libgcc-4.4.7-4.el6.i686.rpm 
-rpm -Uvh libgcc-4.4.7-4.el6.x86_64.rpm 
-rpm -Uvh libstdc++-4.4.7-4.el6.i686.rpm 
-rpm -Uvh libstdc++-4.4.7-4.el6.x86_64.rpm 
-rpm -Uvh gcc-4.4.7-4.el6.x86_64.rpm 
-rpm -Uvh gcc-c++-4.4.7-4.el6.x86_64.rpm 
-rpm -Uvh elfutils-libelf-0.152-1.el6.i686.rpm 
-rpm -Uvh elfutils-libelf-0.152-1.el6.x86_64.rpm 
-rpm -Uvh elfutils-libelf-devel-0.152-1.el6.i686.rpm 
-rpm -Uvh elfutils-libelf-devel-0.152-1.el6.x86_64.rpm 
-rpm -Uvh libtool-ltdl-2.2.6-15.5.el6.i686.rpm 
-rpm -Uvh ncurses*i686*
-rpm -Uvh readline*i686*
-rpm -Uvh unixODBC*
-可写成脚本在Package目录下执行
+    cd /mdeia/cdrom
+    cd /media/OL6.5\ x86_64\ Disc\ 1\ 20131125/Packages/
+    rpm -Uvh binutils-2.*
+    rpm -Uvh compat-libstdc++-33-3.2.3-69.el6.i686.rpm 
+    rpm -Uvh compat-libstdc++-33-3.2.3-69.el6.x86_64.rpm 
+    rpm -Uvh elfutils-libelf-0.152-1.el6.i686.rpm 
+    rpm -Uvh elfutils-libelf-0.152-1.el6.x86_64.rpm 
+    rpm -Uvh libaio-0.3.107-10.el6.i686.rpm 
+    rpm -Uvh libaio-0.3.107-10.el6.x86_64.rpm 
+    rpm -Uvh libaio-devel-0.3.107-10.el6.i686.rpm 
+    rpm -Uvh libaio-devel-0.3.107-10.el6.x86_64.rpm 
+    rpm -Uvh sysstat-9.0.4-22.el6.x86_64.rpm 
+    rpm -Uvh glibc-2.12-1.132.el6.i686.rpm 
+    rpm -Uvh glibc-2.12-1.132.el6.x86_64.rpm 
+    rpm -Uvh glibc-common-2.12-1.132.el6.x86_64.rpm 
+    rpm -Uvh glibc-devel-2.12-1.132.el6.x86_64.rpm
+    rpm -Uvh glibc-devel-2.12-1.132.el6.i686.rpm 
+     rpm -Uvh glibc-headers-2.12-1.132.el6.x86_64.rpm 
+    rpm -Uvh ksh-20120801-10.el6.x86_64.rpm 
+    rpm -Uvh make-3.81-20.el6.x86_64.rpm 
+    rpm -Uvh libgcc-4.4.7-4.el6.i686.rpm 
+    rpm -Uvh libgcc-4.4.7-4.el6.x86_64.rpm 
+    rpm -Uvh libstdc++-4.4.7-4.el6.i686.rpm 
+    rpm -Uvh libstdc++-4.4.7-4.el6.x86_64.rpm 
+    rpm -Uvh gcc-4.4.7-4.el6.x86_64.rpm 
+    rpm -Uvh gcc-c++-4.4.7-4.el6.x86_64.rpm 
+    rpm -Uvh elfutils-libelf-0.152-1.el6.i686.rpm 
+    rpm -Uvh elfutils-libelf-0.152-1.el6.x86_64.rpm 
+    rpm -Uvh elfutils-libelf-devel-0.152-1.el6.i686.rpm 
+    rpm -Uvh elfutils-libelf-devel-0.152-1.el6.x86_64.rpm 
+    rpm -Uvh libtool-ltdl-2.2.6-15.5.el6.i686.rpm 
+    rpm -Uvh ncurses*i686*
+    rpm -Uvh readline*i686*
+    rpm -Uvh unixODBC*
+    可写成脚本在Package目录下执行
 
 # 4.修改内核参数
 vi /etc/sysctl.conf
