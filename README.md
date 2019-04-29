@@ -229,16 +229,11 @@ grid环境变量
 udev绑定磁盘路径和权限
 
      vi /etc/udev/rules.d/99-oracle-asmdevices.rules
-    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VB67713a3b-d1
-    448e77",NAME="asm-disk1", OWNER="grid", GROUP="asmadmin", MODE="0660"
-    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VB6b88618f-dc
-    ac53c7",NAME="asm-disk2", OWNER="grid", GROUP="asmadmin", MODE="0660"
-    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VB8e0e340e-bc
-    75d7d4",NAME="asm-disk3", OWNER="grid", GROUP="asmadmin", MODE="0660"
-    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VBb7a7ff67-64
-    0abe54",NAME="asm-disk4", OWNER="grid", GROUP="asmadmin", MODE="0660"
-    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VB2bd1aa20-86
-    735a83",NAME="asm-disk5", OWNER="grid", GROUP="asmadmin", MODE="0660"
+    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VB67713a3b-d1448e77",NAME="asm-disk1", OWNER="grid", GROUP="asmadmin", MODE="0660"
+    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VB6b88618f-dcac53c7",NAME="asm-disk2", OWNER="grid", GROUP="asmadmin", MODE="0660"
+    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VB8e0e340e-bc75d7d4",NAME="asm-disk3", OWNER="grid", GROUP="asmadmin", MODE="0660"
+    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VBb7a7ff67-640abe54",NAME="asm-disk4", OWNER="grid", GROUP="asmadmin", MODE="0660"
+    KERNEL=="sd*", BUS=="scsi", PROGRAM=="/sbin/scsi_id -g -u -d /dev/$parent", RESULT=="1ATA_VBOX_HARDDISK_VB2bd1aa20-86735a83",NAME="asm-disk5", OWNER="grid", GROUP="asmadmin", MODE="0660"
 
 # 13.创建相关目录
 
