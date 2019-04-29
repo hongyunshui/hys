@@ -11,9 +11,9 @@
 
 # 1.操作系统以及依赖安装
 安装操作系统时需勾选的选项
-Base System > Base
-Base System > Compatibility libraries
-Base System > Hardware monitoring utilities
+    Base System > Base
+    Base System > Compatibility libraries
+    Base System > Hardware monitoring utilities
 Base System > Large Systems Performance
 Base System > Network file system client
 Base System > Performance Tools
@@ -32,8 +32,8 @@ Development > Additional Development
 Development > Development Tools
 
 # 2.挂载镜像
-mkdir /media/cdrom
-mount /dev/cdrom/ /media/cdrom
+    mkdir /media/cdrom
+    mount /dev/cdrom/ /media/cdrom
 
 # 3.安装所需的包
 cd /mdeia/cdrom
