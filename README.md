@@ -1,35 +1,35 @@
 # hys
 
 # oracle linux 6.5 安装oracle 11g R2 rac集群
-  实验环境 <br>
-  虚拟化软件virtualBox <br>
-虚拟机操作系统oracle linux 6.5 <br>
-虚拟机双网口 <br>
-一个public network <br>
-一个prviate network/jlib <br>
-磁盘30G，分配的时候，6G留给交换分区，其他全部划分到根目录下 <br>
+    实验环境 
+    虚拟化软件virtualBox 
+    虚拟机操作系统oracle linux 6.5 
+    虚拟机双网口 
+    一个public network 
+    一个prviate network/jlib 
+    磁盘30G，分配的时候，6G留给交换分区，其他全部划分到根目录下 
 
 # 1.操作系统以及依赖安装
 安装操作系统时需勾选的选项
     Base System > Base
     Base System > Compatibility libraries
     Base System > Hardware monitoring utilities
-Base System > Large Systems Performance
-Base System > Network file system client
-Base System > Performance Tools
-Base System > Perl Support
-Servers > Server Platform
-Servers > System administration tools
-Desktops > Desktop
-Desktops > Desktop Platform
-Desktops > Fonts
-Desktops > General Purpose Desktop
-Desktops > Graphical Administration Tools
-Desktops > Input Methods
-Desktops > X Window System
-Applications > Internet Browser
-Development > Additional Development
-Development > Development Tools
+    Base System > Large Systems Performance
+    Base System > Network file system client
+    Base System > Performance Tools
+    Base System > Perl Support
+    Servers > Server Platform
+    Servers > System administration tools
+    Desktops > Desktop
+    Desktops > Desktop Platform
+    Desktops > Fonts
+    Desktops > General Purpose Desktop
+    Desktops > Graphical Administration Tools
+    Desktops > Input Methods
+    Desktops > X Window System
+    Applications > Internet Browser
+    Development > Additional Development
+    Development > Development Tools
 
 # 2.挂载镜像
     mkdir /media/cdrom
